@@ -25,6 +25,7 @@
     "express": "^4.17.1",
     "google-auth-library": "^5.8.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.8.6"
+    "mongoose": "^5.8.6",
+    "twilio": "^3.39.2"
   }
 }
