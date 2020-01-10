@@ -9,7 +9,7 @@ class SmsController {
     static sendSms(req, res, next) {
         client.messages 
             .create({ 
-                body: req.body.body, 
+                body: req.body.message,
                 from: 'whatsapp:+14155238886',       
                 to: `whatsapp:${req.body.to}` 
             }) 
