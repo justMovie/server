@@ -1,5 +1,6 @@
 const router = require("express").Router();
+const smsRoute = require('./sms');
 
-app.use("/");
+router.use("/", smsRoute);
 
 module.exports = router;
