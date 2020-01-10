@@ -1,5 +1,8 @@
-const router = require("express").Router();
+'use strict';
 
-app.use("/");
+const router = require("express").Router();
+const gsigninRouter = require('./gsigninRouter');
+
+router.use('/gsignin', gsigninRouter);
 
 module.exports = router;
