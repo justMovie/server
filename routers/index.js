@@ -1,5 +1,6 @@
 const router = require("express").Router();
+const omdbRouter = require("./omdbRouter");
 
-app.use("/");
+router.use("/omdbs", omdbRouter);
 
 module.exports = router;
